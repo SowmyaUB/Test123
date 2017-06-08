@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25" zv="Cache for Windows (x86-64) 2016.1.2 (Build 209U)" ts="2017-06-08 12:15:02">
+<Class name="User.Sample">
+<Super>%Persistent</Super>
+<TimeChanged>64442,43998.856098</TimeChanged>
+<TimeCreated>64441,60198.758849</TimeCreated>
+
+<Method name="ADD">
+<ClassMethod>1</ClassMethod>
+<FormalSpec>n1:%Integer,n2:%Integer</FormalSpec>
+<Implementation><![CDATA[	return  + n2 ;
+]]></Implementation>
+</Method>
+
+<Storage name="Default">
+<Type>%Library.CacheStorage</Type>
+<DataLocation>^User.SampleD</DataLocation>
+<DefaultData>SampleDefaultData</DefaultData>
+<IdLocation>^User.SampleD</IdLocation>
+<IndexLocation>^User.SampleI</IndexLocation>
+<StreamLocation>^User.SampleS</StreamLocation>
+<Data name="SampleDefaultData">
+<Value name="1">
+<Value>%%CLASSNAME</Value>
+</Value>
+</Data>
+</Storage>
+</Class>
+</Export>
