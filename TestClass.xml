@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25" zv="Cache for Windows (x86-64) 2016.1.2 (Build 209U)" ts="2017-06-08 12:34:58">
+<Class name="User.TestClass">
+<Super>%UnitTest.TestCase</Super>
+<TimeChanged>64442,45227.437945</TimeChanged>
+<TimeCreated>64442,45195.37263</TimeCreated>
+
+<Method name="TestAdd">
+<ReturnType>%Status</ReturnType>
+<Implementation><![CDATA[
+   do $$$AssertEquals(##class(User.Sample).ADD(2,2),4, "Test Add(2,2)=4")
+   do $$$AssertEquals(##class(User.Sample).ADD(2,2),5,"Test Add(2,2)'=5")
+]]></Implementation>
+</Method>
+</Class>
+</Export>
