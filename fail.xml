@@ -11,7 +11,6 @@
 <Implementation><![CDATA[	return  + n2 ;
 ]]></Implementation>
 </Method>
-
 <Storage name="Default">
 <Type>%Library.CacheStorage</Type>
 <DataLocation>^User.SampleD</DataLocation>
